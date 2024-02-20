@@ -1,0 +1,345 @@
+{
+  "cookies": {
+    "TS0193e6a1": "01283c52a4156b2359c40c0767f6aff13b2242c141ee84f63d9226ecf5160a57f85bac7eb0128bd4a65e93d9a2ce0e3ec4b959b408"
+  },
+  "created_at": "2024-02-17T22:36:52.231580",
+  "elapsed": 1.023328,
+  "encoding": "utf-8",
+  "headers": {
+    "Date": "Sat, 17 Feb 2024 22:36:52 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "5474",
+    "Connection": "keep-alive",
+    "X-Frame-Options": "Deny",
+    "Cache-Control": "private, no-store",
+    "Strict-Transport-Security": "max-age=31536000",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1;mode=block",
+    "Vary": "Origin",
+    "Set-Cookie": "TS0193e6a1=01283c52a4156b2359c40c0767f6aff13b2242c141ee84f63d9226ecf5160a57f85bac7eb0128bd4a65e93d9a2ce0e3ec4b959b408; Path=/; Domain=.geocoding.geo.census.gov"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "deflate, gzip",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.31.0"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.438334&y=38.381112"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.438334&y=38.381112",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 135519,
+            "GEOID": "24029",
+            "CENTLAT": "+38.3094103",
+            "AREAWATER": 16515028,
+            "STATE": "24",
+            "BASENAME": "29",
+            "OID": "212904691844622",
+            "LSADC": "LU",
+            "SLDU": "029",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.3099087",
+            "NAME": "State Senate District 29",
+            "OBJECTID": 1201,
+            "CENTLON": "-076.5950502",
+            "LSY": "2018",
+            "HU100": 54709,
+            "AREALAND": 1008461420,
+            "INTPTLON": "-076.5953079",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01714934",
+            "POP100": 6177224,
+            "GEOID": "24",
+            "CENTLAT": "+38.9463607",
+            "AREAWATER": 6979171386,
+            "STATE": "24",
+            "BASENAME": "Maryland",
+            "STUSAB": "MD",
+            "OID": "27490140608205",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9466584",
+            "DIVISION": "5",
+            "NAME": "Maryland",
+            "REGION": "3",
+            "OBJECTID": 20,
+            "CENTLON": "-076.6789663",
+            "AREALAND": 25151895765,
+            "INTPTLON": "-076.6744939",
+            "HU100": 2530844,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "49594",
+            "CENTLAT": "+38.3003067",
+            "AREAWATER": 5412448,
+            "BASENAME": "Lexington Park--California--Chesapeake Ranch Estates, MD",
+            "OID": "270214485566817",
+            "UA": "49594",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.3042422",
+            "NAME": "Lexington Park--California--Chesapeake Ranch Estates, MD Urban Area",
+            "OBJECTID": 1630,
+            "CENTLON": "-076.4609928",
+            "AREALAND": 120832052,
+            "INTPTLON": "-076.4880862",
+            "MTFCC": "G3500"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 9973383,
+            "GEOID": "548",
+            "CENTLAT": "+39.0282791",
+            "AREAWATER": 4067866689,
+            "BASENAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",
+            "OID": "2619013782255247",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.0246056",
+            "NAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA CSA",
+            "CSA": "548",
+            "OBJECTID": 103,
+            "CENTLON": "-077.3083318",
+            "HU100": 4006033,
+            "AREALAND": 32735838394,
+            "INTPTLON": "-077.3105306",
+            "MTFCC": "G3100"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 45970,
+            "GEOID": "2429C",
+            "CENTLAT": "+38.3124895",
+            "SLDL": "29C",
+            "AREAWATER": 4169013,
+            "STATE": "24",
+            "BASENAME": "29C",
+            "OID": "213904691844796",
+            "LSADC": "L6",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.3126957",
+            "NAME": "State Legislative Subdistrict 29C",
+            "OBJECTID": 3438,
+            "CENTLON": "-076.5265237",
+            "LSY": "2018",
+            "HU100": 18661,
+            "AREALAND": 247485598,
+            "INTPTLON": "-076.5279346",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90016",
+            "POP100": 28630,
+            "GEOID": "2400990016",
+            "CENTLAT": "+38.4012439",
+            "AREAWATER": 144184017,
+            "STATE": "24",
+            "BASENAME": "1, Solomons Island",
+            "OID": "27690388506794",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.4015539",
+            "NAME": "District 1, Solomons Island",
+            "OBJECTID": 25735,
+            "CENTLON": "-076.4433220",
+            "COUSUBCC": "Z1",
+            "HU100": 11876,
+            "AREALAND": 132879018,
+            "INTPTLON": "-076.4409521",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01929426",
+            "UR": "M",
+            "COUNTY": "009"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 2072,
+            "GEOID": "2448800",
+            "CENTLAT": "+38.3619339",
+            "AREAWATER": 429674,
+            "STATE": "24",
+            "BASENAME": "Lusby",
+            "OID": "28090388516469",
+            "LSADC": "57",
+            "PLACE": "48800",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.3623560",
+            "NAME": "Lusby CDP",
+            "OBJECTID": 24939,
+            "PLACECC": "U1",
+            "CENTLON": "-076.4371752",
+            "CBSAPCI": "N",
+            "HU100": 866,
+            "AREALAND": 9098844,
+            "INTPTLON": "-076.4379152",
+            "PLACENS": "02390098",
+            "MTFCC": "G4210",
+            "UR": "U"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 92783,
+            "GEOID": "24009",
+            "CENTLAT": "+38.5345651",
+            "AREAWATER": 341580668,
+            "STATE": "24",
+            "BASENAME": "Calvert",
+            "OID": "27590388490830",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.5227191",
+            "NAME": "Calvert County",
+            "OBJECTID": 838,
+            "CENTLON": "-076.5303934",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01676636",
+            "AREALAND": 552158542,
+            "INTPTLON": "-076.5297621",
+            "HU100": 35663,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "009"
+          }
+        ],
+        "2020 Urban Areas": [
+          {
+            "GEOID": "49594",
+            "CENTLAT": "+38.3003067",
+            "AREAWATER": 5412448,
+            "BASENAME": "Lexington Park--California--Chesapeake Ranch Estates, MD",
+            "OID": "270704485566817",
+            "UA": "49594",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.3042422",
+            "NAME": "Lexington Park--California--Chesapeake Ranch Estates, MD Urban Area",
+            "OBJECTID": 750,
+            "CENTLON": "-076.4609928",
+            "AREALAND": 120832052,
+            "INTPTLON": "-076.4880862",
+            "MTFCC": "G3500"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 795379,
+            "GEOID": "2405",
+            "CENTLAT": "+38.4746485",
+            "CDSESSN": "116",
+            "AREAWATER": 2066519525,
+            "STATE": "24",
+            "BASENAME": "5",
+            "OID": "211904690760337",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.4718173",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 199,
+            "CENTLON": "-076.7132342",
+            "HU100": 295964,
+            "AREALAND": 3840026634,
+            "INTPTLON": "-076.7120357",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6517,
+            "GEOID": "24009861003",
+            "CENTLAT": "+38.3392989",
+            "AREAWATER": 5947765,
+            "STATE": "24",
+            "BASENAME": "8610.03",
+            "OID": "207903029132595",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.3394149",
+            "NAME": "Census Tract 8610.03",
+            "OBJECTID": 29188,
+            "TRACT": "861003",
+            "CENTLON": "-076.4285171",
+            "HU100": 2741,
+            "AREALAND": 11101835,
+            "INTPTLON": "-076.4274260",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "009"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 121,
+            "GEOID": "240098610033000",
+            "CENTLAT": "+38.3826801",
+            "BLOCK": "3000",
+            "AREAWATER": 0,
+            "STATE": "24",
+            "BASENAME": "3000",
+            "OID": "210701008422291",
+            "LSADC": "BK",
+            "INTPTLAT": "+38.3826801",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3000",
+            "OBJECTID": 2310226,
+            "TRACT": "861003",
+            "CENTLON": "-076.4343048",
+            "BLKGRP": "3",
+            "AREALAND": 612423,
+            "HU100": 88,
+            "INTPTLON": "-076.4343048",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "009"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -76.438334,
+          "y": 38.381112
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}
